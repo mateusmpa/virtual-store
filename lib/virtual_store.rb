@@ -1,4 +1,4 @@
-require File.expand_path('lib/currency_format')
+require File.expand_path('lib/currency_formatter')
 require File.expand_path('lib/media')
 require File.expand_path('lib/dvd')
 require File.expand_path('lib/cd')

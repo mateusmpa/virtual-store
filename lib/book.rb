@@ -1,6 +1,6 @@
 class Book < Media
-  include CurrencyFormat
-  
+  include CurrencyFormatter
+
   attr_reader :category, :isbn, :author
 
   def initialize(title, author, isbn = '1', number_of_pages, price, category)
